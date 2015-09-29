@@ -1,0 +1,4 @@
+include README.rst
+include docs/*.txt
+include lnkd_data/fortune_master.csv
+include lnkd_data/school_master.csv

@@ -75,7 +75,8 @@ setup(
         ],
     scripts=['bin/lnkd-test'],
     entry_points ={
-        'console_scripts': ['finniest-joke=lnkd_data.command_line:main']
+        'console_scripts': ['finniest-joke=lnkd_data.command_line:main'],
+    include_package_data=True
     }
     # extras_require={
     #     'testing': ['pytest'],
