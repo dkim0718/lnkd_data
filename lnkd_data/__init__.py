@@ -2,6 +2,9 @@ import os
 import pandas as pd 
 from pandas import DataFrame, Series
 
+# Import other things
+from lnkd_data.data import *
+
 # Directories on the grid.
 edu_dir='/export/home/doctoral/dokim/Linkedin/Education/'
 profile_dir='/export/home/doctoral/dokim/Linkedin/Output/'
