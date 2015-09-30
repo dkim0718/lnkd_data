@@ -3,12 +3,14 @@ import pandas as pd
 from pandas import DataFrame, Series
 
 # Import other things
-from lnkd_data.data import *
+from lnkd_tools.data import *
+from lnkd_tools.names import *
+from lnkd_tools.tools import *
 
 # Directories on the grid.
-edu_dir='/export/home/doctoral/dokim/Linkedin/Education/'
-profile_dir='/export/home/doctoral/dokim/Linkedin/Output/'
-root_dir ='/export/home/doctoral/dokim/Linkedin/'
+# edu_dir='/export/home/doctoral/dokim/Linkedin/Education/'
+# profile_dir='/export/home/doctoral/dokim/Linkedin/Output/'
+# root_dir ='/export/home/doctoral/dokim/Linkedin/'
 
 def joke():
     return (u'Wenn ist das Nunst\u00fcck git und Slotermeyer? Ja! ... '
