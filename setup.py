@@ -73,11 +73,11 @@ setup(
         'Topic :: Utilities',
         # 'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
         ],
-    scripts=['bin/lnkd-test'],
+    # scripts=['bin/lnkd-test'],
     entry_points ={
         'console_scripts': ['finniest-joke=lnkd_data.command_line:main'],
+    },
     include_package_data=True
-    }
     # extras_require={
     #     'testing': ['pytest'],
     # }

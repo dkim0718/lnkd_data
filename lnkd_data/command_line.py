@@ -1,5 +1,6 @@
 #!/usr/bin/env python
+from . import joke
 
 import lnkd_data
 def main():
-    print lnkd_data.joke()
+    print joke()
