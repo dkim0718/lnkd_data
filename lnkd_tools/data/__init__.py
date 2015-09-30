@@ -12,5 +12,6 @@ def get_data(input_arg):
         resource_path = os.path.join('lnkd_data/data', 'fortune_master.csv')
     else:
         resource_path = ''
-        pass
+        print ("Specify a file name: 'school' or 'fortune'")
+        raise NameError('Unknown file specified.')
     return pd.read_csv(resource_path,encoding='utf-8')

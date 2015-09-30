@@ -7,7 +7,7 @@ import io
 import os
 import sys
 
-# import lnkd_data
+# import `
 
 here = os.path.abspath(os.path.dirname(__file__))
 
@@ -38,10 +38,10 @@ class PyTest(TestCommand):
         sys.exit(errcode)
 
 setup(
-    name='lnkd_data',
-    # version=lnkd_data.__version__,
+    name='lnkd_tools',
+    # version=lnkd_tools.__version__,
     version='0.1',
-    url='https://github.com/dkim0718/lnkd_data',
+    url='https://github.com/dkim0718/lnkd_tools',
     license='MIT',
     author='Do Yoon Kim',
     # tests_require=['pytest'],
@@ -53,7 +53,7 @@ setup(
     description='Convenience tools for working with LinkedIn data',
     # long_description=long_description,
     long_description=readme(),
-    packages=['lnkd_data'],
+    packages=['lnkd_tools'],
     zip_safe=False,
     # include_package_data=True,
     # platforms='any',
@@ -75,7 +75,7 @@ setup(
         ],
     # scripts=['bin/lnkd-test'],
     entry_points ={
-        'console_scripts': ['finniest-joke=lnkd_data.command_line:main'],
+        'console_scripts': ['finniest-joke=lnkd_tools.command_line:main'],
     },
     include_package_data=True
     # extras_require={
