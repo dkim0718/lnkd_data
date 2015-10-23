@@ -2,10 +2,11 @@ import os
 import pandas as pd 
 from pandas import DataFrame, Series
 
-# Import other things
-from lnkd_tools.data import *
-from lnkd_tools.names import *
-from lnkd_tools.tools import *
+__all__ = ['cleaning','grid','html','movement','names']
+# # Import other things
+# from lnkd_tools import *
+# from lnkd_tools.data import *
+# from lnkd_tools.names import *
 
 # Directories on the grid.
 # edu_dir='/export/home/doctoral/dokim/Linkedin/Education/'

@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """
 A set of functions to help getting data on the movement of individuals.
 """
