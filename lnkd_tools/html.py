@@ -7,6 +7,10 @@ import lxml.html
 import numpy as np
 import pandas as pd
 from pandas import DataFrame, Series
+import mechanize
+import cookielib
+import random
+from time import sleep
 
 """
 Create mechanize browser that is difficult to catch

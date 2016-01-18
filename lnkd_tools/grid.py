@@ -17,7 +17,7 @@ def loop_merge(inputdir,on_df,on,keep=None,resultname='loop_df.csv',split=False)
 
 
     # Shorthand notation for directories
-    if (inputdir=='educ') | inputdir(=='education'):
+    if (inputdir=='educ') | (inputdir=='education'):
         inputdir = '/export/home/doctoral/dokim/Linkedin/Education/'
     elif (inputdir=='prof') | (inputdir=='profile'):
         inputdir = '/export/home/doctoral/dokim/Linkedin/Output/'
